@@ -1,4 +1,4 @@
-**Networking**
+1.**Networking**
 - VPC
 - Internet Gateway
 - Public Subnets
