@@ -1,4 +1,4 @@
-**AWS Security**
+2. **AWS Security**
 
 ## 🎯 Goal
 
