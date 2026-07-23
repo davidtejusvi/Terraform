@@ -1,0 +1,31 @@
+#Never send secrets to git
+.env
+*.pem
+*.key
+credentials
+
+#Ignore dependencies and virtual env
+node_modules
+.venv
+
+*.tfstate
+
+# Ignore build artifacts
+*.zip
+*.jar
+
+#OS junk
+.DS_Store
+Thumbs.db
+
+#ignore tf supportfiles
+**/.terraform/*
+
+# Exclude tftstae file
+*.tfstate
+*.tfstate.*
+
+#exclude all varibale files
+*.tfvars
+*.tfvars.json
+.terraform.lock.hcl
